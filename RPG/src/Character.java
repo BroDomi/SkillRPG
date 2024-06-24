@@ -24,7 +24,7 @@ class Character {
             enemy.health -= strength;
             System.out.println(name + " наносит " + enemy.name + " " + strength + " урона!");
         } else {
-            System.out.println(name + " блокирует удар!");
+            System.out.println(name + " промахнулся!");
         }
     }
 
